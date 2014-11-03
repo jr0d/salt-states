@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/etc/modprobe.d'
+let g:netrw_dirhist_2='/home/jared/git/press/press.egg-info'
+let g:netrw_dirhist_3='/Users/jared/.irssi'
+let g:netrw_dirhist_4='/Users/jared/git/kickstart_ctkapi/kickstart_ctkapi'
+let g:netrw_dirhist_5='/Users/jared/git/corepart2kickstart/corepart2kickstart'
+let g:netrw_dirhist_6='/Users/jared/git/press/configuration'

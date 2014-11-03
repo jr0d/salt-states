@@ -1,0 +1,6 @@
+base:
+    '*':
+      - packages
+      - sudo
+      - jrunner
+
