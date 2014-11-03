@@ -8,12 +8,16 @@ jrunner:
     - wheel
   - require:
     - group: jrunner
+  group.present:
+    - gid: 7777
+
+jrunner_ssh:
   ssh_auth:
    - present
    - source: salt://ssh/jrunner.id_rsa.pub
    - user: jrunner
-  group.present:
-    - gid: 7777
+   - require:
+     - user: jrunner
 
 /home/jrunner/.bashrc:
   file.managed:
